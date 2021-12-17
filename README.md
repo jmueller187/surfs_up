@@ -4,7 +4,7 @@ Analysis using SQLite, SQLAlchemy, and Flask
 ## Analysis Overview:
 We were tasked with analyzing a weather dataset taken from weather stations on the island of Oahu to determine if this would be the ideal location to open a surf & shake shop, serving surf boards and ice cream to tourists and locals looking to "hang ten" and cool off with a frozen treat. After first analyzing and reporting on all of the temperature and precipitation data accumulated over multiple years, we were then tasked with two additional deliverables, whick reported on temperature statistics for the months of June and December in the same time period.
 
-## Results: Provide a bulleted list with three major points from the two analysis deliverables. Use images as support where needed.
+## Results: 
 We received the following temperature statistics for the months of June and December after completing our analysis:
 
 ![June Temps](https://github.com/jmueller187/surfs_up/blob/main/Resources/JuneTempsSummaryStatistics.png)
@@ -16,7 +16,7 @@ We were able to see the following three major points from these results:
 2. The temperatures for June varied by 21 degrees, with a minimum temperature of 64 degrees and a maximum temperature of 85 degrees.
 3. The temperatures for December varied over a larger range (27 degrees) with a minimum temperature of 56 degrees and a maximum temperature of 83 degrees.
 
-## Summary: Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
+## Summary: 
 From our two temperature deliverables, we can see that the surf and ice cream shop is a business that would be sustainable throughout the entire year. Based on our data, temperatures remain fairly consistent from June to December, which would contribute to a steady flow of customers from the summer months into the winter months.
 
 In addition to temperatures, our dataset also included precipitation data. We could also perform the following two queries to gather precipitation data for the months of June and December.
