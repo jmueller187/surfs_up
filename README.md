@@ -5,7 +5,7 @@ Analysis using SQLite, SQLAlchemy, and Flask
 We were tasked with analyzing a weather dataset taken from weather stations on the island of Oahu to determine if this would be the ideal location to open a surf & shake shop, serving surf boards and ice cream to tourists and locals looking to "hang ten" and cool off with a frozen treat. After first analyzing and reporting on all of the temperature and precipitation data accumulated over multiple years, we were then tasked with two additional deliverables, whick reported on temperature statistics for the months of June and December in the same time period.
 
 ## Results: Provide a bulleted list with three major points from the two analysis deliverables. Use images as support where needed.
-We received the following temperature statistics for the months of June and December after completing our analysis:
+We received the following temperature statistics for the months of June and December after completing our analysis:/n
 ![June Temps](https://github.com/jmueller187/surfs_up/blob/main/Resources/JuneTempsSummaryStatistics.png)
 
 ![December Temps](https://github.com/jmueller187/surfs_up/blob/main/Resources/DecemberTempsSummaryStatistics.png)
@@ -31,7 +31,7 @@ june_precip_df = pd.DataFrame(june_precip_list, columns=['June Precipitation'])
 # Calculate and print out the summary statistics for the June precipitation DataFrame.
 june_precip_df.describe()
 ~~~
-Query #1 summary statistics:
+Query #1 summary statistics:/n
 ![June Precipitation](https://github.com/jmueller187/surfs_up/blob/main/Resources/JunePrecipitationSummaryStatistics.png)
 
 ### Query #2 - gather December precipiation data:
@@ -45,5 +45,5 @@ december_precip_df = pd.DataFrame(december_precip_list, columns=['December Preci
 # Calculate and print out the summary statistics for the December precipitation DataFrame.
 december_precip_df.describe()
 ~~~
-Query #1 summary statistics:
+Query #1 summary statistics:/n
 ![December Precipitation](https://github.com/jmueller187/surfs_up/blob/main/Resources/DecemberPrecipitationSummaryStatistics.png)
